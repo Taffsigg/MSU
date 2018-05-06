@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/siggy"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="502dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context="com.example.tafadzwa.myapplication.MainActivity"
+            tools:ignore="MissingConstraints">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/bss"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/buses"
+
+                            />
+
+
+                        <Button
+                            android:id="@+id/shopnsellbtn"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/shopnselll" />
+
+
+                        <Button
+                            android:id="@+id/spoot"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/sportss" />
+
+                        <Button
+                            android:id="@+id/meallsbtn"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/mealss" />
+
+
+                        <Button
+                            android:id="@+id/lostnfoundbtn"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/lostandfoundd" />
+
+
+                        <Button
+                            android:id="@+id/intbtn"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/intertainmentt" />
+
+                        <Button
+                            android:id="@+id/carerbtn"
+                            android:layout_width="500px"
+                            android:layout_height="160px"
+                            android:background="@drawable/careerss" />
+
+                        <Button
+                            android:layout_width="500px"
+                            android:layout_height="80px" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

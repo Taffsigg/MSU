@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tafadzwa.midlandsstateuniversity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Programs" />
+        <activity android:name=".Library" />
+        <activity android:name=".Fees" />
+        <activity android:name=".News" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".ICT" />
+        <activity android:name=".Site" />
+        <activity android:name=".Social" />
+        <activity android:name=".Apply" />
+        <activity android:name=".Safety" />
+        <activity android:name=".Admissions" />
+        <activity android:name=".Information" />
+        <activity android:name=".Undergraduate" />
+        <activity android:name=".Mastersdegree" />
+        <activity android:name=".Postgraduateee" />
+        <activity android:name=".Zvishcampus" />
+        <activity android:name=".Manicampus" />
+        <activity android:name=".GraduateCampus" />
+        <activity android:name=".StudentPortal" />
+        <activity android:name=".StaffPortal" />
+        <activity android:name=".Gweru" />
+        <activity android:name=".Zvishavaane" />
+        <activity android:name=".Career" />
+        <activity android:name=".Entertainment" />
+        <activity android:name=".LostandFound" />
+        <activity android:name=".Meals" />
+        <activity android:name=".Shopnsell" />
+        <activity android:name=".Buseeses" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Cal" />
+        <activity android:name=".Maps" />
+        <activity android:name=".Emergencycall" />
+        <activity android:name=".Securitycall"></activity>
+    </application>
+
+</manifest>

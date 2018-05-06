@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#b7ec0d0d"
+                    android:text="Welcome Note from Dean of Student Affairs"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I’d like to take this opportunity to extend my warm greetings and compliments of the New Year to you all. Hoping you have enjoyed the festive season and are looking forward to a new academic year and semester. I am excited to welcome our new and returning students, and to thank you for choosing Midlands State University as your first choice. Am confident you will find your studies with us very fruitful and the community supportive and accommodative.
+Students are at the heart of what we do at the Division of Student Affairs. We strive to assist students in developing the values of character, conscience, civility and citizenship; an appreciation of diversity and individual and social responsibility. As the Executive Dean  of Student Affairs, I am committed to the holistic development of our students through delivery of innovative programs and services which are responsive to the needs of students, address emerging issues, and foster community-building  my role is to assist and support you in achieving your academic and personal goals.
+The Division is comprised of several departments that offer a wide range of services such as; Residence, Student Development, Sports, Health, Chaplaincy and Counselling Services. These departments work hard to support the academic mission of the University by enhancing student living and learning beyond the classroom. Working in partnership with other members of the University community, Student Affairs staff and administrators provide a variety of programs and services that add considerable value to the outstanding learning experience that prepares you to function effectively in a scientific, technological, and diverse world. They also work with you to build a community of learners and to create an environment that promotes leadership, values diversity and respect for others.
+The key fundamental to your success as a student at Midlands State University is to become active in your education. We encourage all of our students to become involved, whether it is joining student organizations, taking on a leadership roles, working closely with the faculty both in and out of the classroom, participating in athletics, and debates among other activities available at the student affairs division. For instance last year the University (MSU) won the bid to host the ninth edition of the
+1/31/2018 Student Affairs | Midlands State University
+
+Pan African Universities Debate Championships (PAUDC), this was a great achievement for the university as it hosted 21 African universities. Hence participating in these activities can contribute to both intellectual and personal growth that will groom you for your future endeavours.
+Everyone at MSU is expected to be a valuable and productive member of the community. As a student you will be asked to balance your academic responsibilities with your social, family, and personal activities, as well as all other aspects of an adult life. Notice how you spend your time wisely studying, working, spending time with friends and family. Make sure that you commit time each day to enrich yourself, nourish your soul, and recharge your body and mind.
+Finally, throughout the year you will need to enlist help or support in a number of ways. Be sure that you use the many resources and services for you to succeed here at Midlands State University. Seek out those that are here to assist you in meeting your goals and responsibilities: the student affairs staff, administrators, your friends and family. We encourage you to set your goals and to keep them high.
+Best wishes for a successful year"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

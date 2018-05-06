@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unddr"
+    tools:context=".Zvishavaane">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Easlie Boys Residence - 40-50 Males"
+            android:textSize="13sp"
+            android:background="#790c13a4"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Main Residence - 60 - 120 Females and Females"
+            android:textColor="#000"
+            android:background="#5106685f"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Manjere Residence - 35 - 70 Females and Females"
+            android:textColor="#000"
+            android:background="#b2a6ac28"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

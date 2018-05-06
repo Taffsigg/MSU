@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlcmccc"
+    tools:context=".Welcome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BACKGROUND"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The idea of a University in the Midlands dates back to the foundation of the National University of Science and Technology when Gweru, which was identified as a possible site for a second university campus in the country, lost its bid to Bulawayo. Two other opportunities to host institutions of higher learning (the Open University and the Catholic University) were also missed by the Midlands Province, when the two universities went to Harare instead. It was in the midst of such disappointments that two initiatives gradually converged to give birth to what has since become the Midlands State University. His Excellency, the President R G Mugabe, on the nudging of the Provincial political leadership of the Midlands, accepted to the idea of a national university being built in the Midlands.
+This coincided with the then Ministry of Higher Education and Technology’s policy of devolution, which was aimed at expanding access to higher education by converting teachers and technical colleges into degree granting institutions. It was through the process of devolution that beginning in 1998 Gweru Teachers College started to enrol students studying for the Bachelor of Commerce with Education and the Bachelor of Science with Education degrees offered by the University of Zimbabwe.
+"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Establishment of the University"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="In the meantime, although the devolution policy inaugurated an irrevocable process of bringing university education to the Midlands, there was a strong feeling, especially in the Province, that what was being done did not quite amount to the President’s promise of a fully fledged state university in the province. Responding to these feelings, but without losing sight of constraints imposed on Government by declining national funds, the Minister of Higher Education and Technology transformed the devolution project at Gweru into Zimbabwe’s third state university by means of the State University in the Midlands Act of April 1999.
+The new University, whose name was later changed to the Midlands State University, was to be initially housed at the Gweru Teachers College premises. The mandate of the institution was contained in its broad objects which are the advancement of knowledge, the diffusion and extension of arts, science and learning, the preservation, dissemination and enhancement of knowledge that is relevant for the development of the people of Zimbabwe through teaching and research and, so far as is consistent with the objects, the nurturing of the intellectual, aesthetic, social and moral growth of the students at the University."
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus Site"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The University started using the former Gweru Teachers’ College facilities, which included Batanai campus in Senga Township. The City of Gweru originally offered the new University the piece of land used by the Zimbabwe National Army as a shooting range for training purposes on condition the Defence Forces were willing to cede it.  When the Army found no suitable alternative, the University had to look for other options.  Fortunately Government came up with a 164 hectare piece of state land conveniently adjacent to the former Gweru Teachers’ College.  In addition the University purchased 188 hectares from Tel One, where more teaching and student facilities are being developed.
+The University was founded as the country faced its worst economic challenges arising out of illegal sanctions imposed by western countries.  This in turn severely limited state capacity to support public institutions, especially Universities.  The institution had to come up with strategies of raising income to provide minimum physical infrastructure for both teaching and its management, to provide for contractual requirements of staff beyond the Government salaries and to support a massive staff development programme especially following the 2008/9 exodus of human skills from Zimbabwe.  Quite a number of fundraising and income generation initiatives were tried but only one in the end was a success.  And that was the establishment of the parallel programmes, which we borrowed from East African Universities.  It is an initiative which supported spectacular infrastructure development and production of suitably qualified teaching, administrative and support staff, when the rest of the country was going through its worst economic crisis.  This impressive growth translated itself in the successful operationalization of the multi-campus concept leading to the establishment of the Zvishavane, Harare and Kwekwe campuses.  In recognition of its strong-willed efforts as well as sound leadership Midlands State University was also mandated to incubate the Manicaland College of Applied Sciences until it became a fully-fledged State University of Applied Sciences"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

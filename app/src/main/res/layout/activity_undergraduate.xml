@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unddr"
+    tools:context=".Undergraduate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor(Honours) of Law(LLBS)"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Eng(Honours) in Metallurgical Engineering(5yrs)"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Eng(Honours)in Mining Engineering(5yrs)"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Eng(Honours)in Materials Engineering(5yrs)"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Eng(Honours)in Geology(4yrs)"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelors in Medicine"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor in Surgery(MBChB)"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc. in Geography and Environmental Studies"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor in Surgery(MBChB)"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Music and Musicology"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc. (Honours) in Psychology"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of social science in Politics and Public Management"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc. (Honours) in Local Governance Studies"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Applied Physics and Instrumentation"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Telecommunications"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Biological Sciences"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Applied Bioscience and Biotechnology"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Chemical Technology "
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Computer Science"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Information System Management"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Surverying and Geomatics "
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Mathematics"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Applied Statistics "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Food Science and Nutrition"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Land and Water Resources Management "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Crop production and Horticulture"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours) in Horticulture "
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc.(Honours)in Agronomy"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Adult Education"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Applied Education "
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Education in Mathematics"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Education in Economics"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Education in  Accounting"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Education in Fashion and Textile"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Educational Foundations and Curriculum Studies"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Education Technology"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor(Honours) of Commerce Accounting"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor(Honours) of Commerce in Banking and Finance"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor (Honours) of Commerce in Business Management"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor(Honours) of Commerce in Retail and Logistics"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor (Honours) of Commerce Marketing Management"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor (Honours) of Commerce in Insurance and Risk Management"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor(Honours) of Commerce in Economics "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Arts (Honours) Archeology, Cultural Heritage and Museum Studies"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

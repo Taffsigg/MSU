@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unddr"
+    tools:context=".Admissions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Study at MSU "
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MSU boosts of four vibrant campuses spread across Zimbabwe, namely, Harare, Zvishavane, Mutare with the main Campus located in Gweru. The campuses house nine faculties namely Arts, Commerce, Education, Law, Natural Resources Management and Agriculture, Science and Technology, Social Sciences, Medicine and Mining and Mineral Processing Engineering.
+Home to more than 23,000 students and 2,000 members of staff, some of whom being the nation’s top scholars and researchers, the University offers flexibly packaged programs that are further augmented by the Work Related Learning programme as part of multifaceted efforts by the University to produce innovative and enterprising graduates who seek not only to be employees but also possess the proclivity to establish their own businesses. Undergraduate and postgraduate students come from across the nation and around the world to pursue their passions and set a course for future success.
+Cognisant of the fact that a well-resourced library is the centre –piece of learning, teaching and research, the University has well-resourced library facilities at all its campuses.
+We believe in producing a holistic graduate who is academically competent and physically fit. To that end, we have a vibrant and well-equipped gymnasium, state of the art ball games and swimming pool.
+MSU remains committed to ensuring that its major stakeholder is provided with a conducive learning and recreation environment at all time.
+Come and be part of the MSU family!! "
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to Apply"
+                    android:background="#77de1010"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="--Complete an official application form, which can be obtained from the Admissions Office at Midlands State University or downloaded under downloads. "
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="--Pay a $20 Non-Refundable application fee for local students and $50 for international students"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="--Submit the completed application form together with certified copies of birth certificate, national identity document and educational certificates at the Admissions Office.
+"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="An official application form can be obtained from the Admissions Office at Midlands State University upon payment of US$20 for Zimbabwean applicants and US$50 for foreign applicants in the normal application category.
+Application forms can also be downloaded from our website, and the completed form should be accompanied by an original deposit slip of the Application fee (US$20) or by a receipt from the bursar’s department (MSU). The Application fee should be deposited in the University’s CBZ ACCOUNT – 01820772520046. Branch Sort Code – 6508.
+Swift Code – COBZZWHA. Applicants may alternatively send their money by registered mail. Cheques, Telegraphic Transfers and money orders will not be accepted. Application forms should be directed to: The Senior Assistant Registrar, Admissions and Academic Affairs, Midlands State University, P Bag 9055, GWERU. Application forms should be accompanied with certified copies of Educational Certificates, Birth and National Identity Certificates. NB. Midlands State University does not have third parties who sell application forms around the country on its behalf."
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Entry Requirements"
+                    android:background="#77de1010"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="For admission to programmes of study at MIDLANDS STATE UNIVERSITY for any first degree, a student must have the following qualifications in the Cambridge School examination or equivalent:Other than the required passes in relevant subjects at GCE A Level or equivalent, all applicants must have passed 5 ‘O’ Level subjects or equivalent including English Language and Mathematics at grade C or better for the Faculties of Science and Technology, Commerce, Natural Resources Management and Agriculture and the Department of Geography. Passes in Biology and Mathematics at ‘O’ level are required in the department of Psychology. For all other programmes applicants should have done ‘O’ level Mathematics and attained a grade ‘E’ or better.
+"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download Links"
+                    android:background="#77de1010"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/loginbutttton"
+                    android:text="Undergraduate Form"
+                    android:id="@+id/underformlink"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/register_butttton"
+                    android:text="PostGradute Form"
+                    android:id="@+id/postformlink"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

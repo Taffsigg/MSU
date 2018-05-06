@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zvishcampus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About Zvishavane Campus"
+                    android:textSize="20sp"
+                    android:background="#690a29f4"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="As part of its growth strategy, Midlands State University has expanded its tentacles into Zvishavane, where it has opened a new campus. The campus which is located at the old Shabani – Mashava Mining Holdings Offices houses the Faculty of Mining Sciences and the departments of Peace Studies, and Politics and Public Management which are both offered under the Faculty of Social Sciences. Also on offer at the new campus is the Bachelor of Education degree in Information Communication Technology under the Faculty of Education.
+The multi-campus approach that the University continues to embrace is a growth strategy characteristic of the natural development process of higher education. Penn State, Northwestern University, University of Nottingham, Wits University and the University of KwaZulu Natal are examples of this global phenomenon.Facilities at the new campus include administration offices for key units such as the bursary and registry sections. Learning, teaching and research facilities include a library, two computer resource centres and lecture rooms. With regards to students’ welfare the new campus has a clinic, dining hall, tuck-shop and student halls of residence. Information Communication Technology infrastructure at the campus includes a Local Area Networking (LAN) that is linked to the Main Campus.
+Apart from its different geographic location all functions and processes related to management, teaching, learning, and students’ welfare are the same as those currently in place at the Main Campus. For example, student accommodation is available for new and returning students both on and off campus. However, similar to the Main Campus, on-campus accommodation is limited and preference will be given to first year students on a first come first serve basis. In the case of returning students, preference will be given to those who had already secured accommodation at the Main Campus. Student registration on the other hand is already in progress with returning students registering online and new students registering in person both at the Zvishavane Campus and Main Campus. Payments can also be made using the normal channels that is through the bank or at the student accounts offices which are already operational at the new campus. Semester dates for both campuses are the same with orientation for new students already underway and lectures commencing on Monday the 3rd of August 2015. The opening of the Zvishavane Campus is therefore cause for celebration as it represents the significant strides being made by the University to realise its strategic goal of establishing 9 faculties by 2015.
+
+The Midlands State University, Zvishavane Campus is therefore a self-contained campus with teaching, learning and research facilities as well as support services similar to those found at the Main Campus in Gweru."
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Faculties "
+                    android:background="#7d053fec"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**ARTS"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**MINING SCIENCES"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="**SOCIAL SCIENCES"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

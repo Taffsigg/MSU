@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_homemenu_white"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_campus"
+            android:icon="@drawable/ic_campus_white"
+            android:title="School" />
+        <item
+            android:id="@+id/nav_portal"
+            android:icon="@drawable/ic_portal_white"
+            android:title="Portal" />
+        <item
+            android:id="@+id/nav_accomodation"
+            android:icon="@drawable/ic_menu"
+            android:title="Accomodation" />
+
+        <item
+            android:id="@+id/nav_Student_affairs"
+            android:title="Student Affairs"
+            android:icon="@drawable/ic_student_account_white"/>
+
+        <item
+            android:id="@+id/nav_Connect"
+            android:title="Connect"
+            android:icon="@drawable/ic_connect_white"/>
+
+        <item
+            android:id="@+id/nav_navigationnav"
+            android:title="Navigation"
+            android:icon="@drawable/ic_portal_white"/>
+
+    </group>
+
+</menu>

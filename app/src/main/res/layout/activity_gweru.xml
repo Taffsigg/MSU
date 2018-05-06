@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gweru">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Ruzivo Hall - 127 Females"
+            android:textSize="13sp"
+            android:background="#790c13a4"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Rutendo Hall - 71 Females"
+            android:textColor="#000"
+            android:background="#5106685f"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Training Centre - 76 Females"
+            android:textSize="13sp"
+            android:background="#7b10b932"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/postgraduatedegreee"
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Rusununguko Hall - 144 Males"
+            android:textStyle="bold"
+            android:background="#7f6e0b0b"
+            android:textSize="13sp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Nyadzoka Hall - 48 Females"
+            android:textSize="13sp"
+            android:background="#790c13a4"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/undergraduatedegree"
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Rufaro Hall - 144 Females"
+            android:textColor="#000"
+            android:background="#5106685f"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Wadzanai Hall - 49 Males , 95 Females"
+            android:textSize="13sp"
+            android:background="#7b10b932"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Runyararo Hall - 94 Females"
+            android:textStyle="bold"
+            android:background="#7f6e0b0b"
+            android:textSize="13sp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Magambe Hall - 94 Females"
+            android:textSize="13sp"
+            android:background="#790c13a4"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Dzapasi Hall - 60 Males"
+            android:textColor="#000"
+            android:background="#5106685f"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Uhuru Hall - 48 Males"
+            android:textSize="13sp"
+            android:background="#7b10b932"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+
+            android:layout_width="330dp"
+            android:layout_height="20dp"
+            android:text="Kaguvi  Hall - 48 Males"
+            android:textStyle="bold"
+            android:background="#7f6e0b0b"
+            android:textSize="13sp"
+            android:textColor="#000"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

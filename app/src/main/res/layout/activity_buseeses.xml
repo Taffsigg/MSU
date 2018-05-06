@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bs"
+    android:layout_height="match_parent"
+    tools:context=".Buseeses">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/diplomacertificate"
+            android:layout_width="330dp"
+            android:layout_height="75dp"
+            android:text="Sunday : Not Available"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#fff" />
+
+
+        <TextView
+            android:id="@+id/undergraduatedegree"
+            android:layout_width="330dp"
+            android:layout_height="75dp"
+            android:text="Monday - Friday : 0730- 2000"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:id="@+id/mastersdegree"
+            android:layout_width="330dp"
+            android:layout_height="75dp"
+            android:text="Saturday : Not Available"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/postgraduatedegreee"
+            android:layout_width="330dp"
+            android:layout_height="75dp"
+            android:text="Holidays : Not Available"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

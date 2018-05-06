@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002463525201",
+    "firebase_url": "https://midlandsstateuniversity4.firebaseio.com",
+    "project_id": "midlandsstateuniversity4",
+    "storage_bucket": "midlandsstateuniversity4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002463525201:android:49086f0760b301e0",
+        "android_client_info": {
+          "package_name": "com.example.tafadzwa.midlandsstateuniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002463525201-bo79sn91h73bgumr1eulf5b3l8rfb6im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tafadzwa.midlandsstateuniversity",
+            "certificate_hash": "8dda3f4bdf4dfa65042e94accf28aded1fe4cd64"
+          }
+        },
+        {
+          "client_id": "1002463525201-kmhrb0st14f9ke4ie63ajb0mo4j37ie0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-EqgnuvuihFrTM1BlivvFIX-ZQb0rmZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002463525201-kmhrb0st14f9ke4ie63ajb0mo4j37ie0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

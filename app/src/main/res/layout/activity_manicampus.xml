@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Manicampus">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Manicaland College of Applied Sciences
+"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="#7be90f0f"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Midlands State University was mandated by the Ministry of Higher and Tertiary Education to spearhead the establishment of a State University in Manicaland that will offer degrees across four faculties namely Agricultural Science, Science, Natural Resources and Tourism and Engineering.
+The decision to appoint MSU to spearhead the establishment of the Manicaland University of Applied Sciences is a befitting honour and recognition of the academic growth, potential and more importantly its commitment to academic excellence which will, without a doubt, translate into the successful establishment of a state university in Manicaland and usher in a new era of academic excellence in the field of applied sciences and the country’s tertiary education sector as a whole.
+Manicaland College of Applied Sciences is located on the outskirts of Mutare . Fern Valley site,is the College’s main campus located approximately ten kilometres out of Mutare along the Vumba road
+"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Degrees Offered"
+            android:textSize="20sp"
+            android:background="#641a4fed"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemical and Processing Engineering"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mining and Mineral Processing Engineering"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
